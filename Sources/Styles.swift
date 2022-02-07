@@ -46,7 +46,7 @@ internal extension Styles {
     }
 
     static var defaultOverlayColor: UIColor {
-        return UIColor(white: 0, alpha: 0.5)
+        return UIColor(white: 0, alpha: 0.8)
     }
 
     static var defaultItemTitleColor: UIColor {

@@ -216,8 +216,8 @@ import UIKit
     ///
     /// - Returns: An item animation configuration object.
     ///
-    @objc static func popUp(withInterItemSpacing interItemSpacing: CGFloat = 12,
-                            firstItemSpacing: CGFloat = 0) -> JJItemAnimationConfiguration {
+    @objc static func popUp(withInterItemSpacing interItemSpacing: CGFloat = 16,
+                            firstItemSpacing: CGFloat = 20) -> JJItemAnimationConfiguration {
         let configuration = JJItemAnimationConfiguration()
         configuration.itemLayout = .verticalLine(withInterItemSpacing: interItemSpacing, firstItemSpacing: firstItemSpacing)
         configuration.closedState = .scale()
